@@ -1,0 +1,21 @@
+{
+  "name": "purpletastic",
+  "displayName": "Purpletastic",
+  "description": "Courtney Robertson's color palette",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purpletastic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Purpletastic-color-theme.json"
+      }
+    ]
+  }
+}
