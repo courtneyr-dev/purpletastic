@@ -1,0 +1,21 @@
+{
+    "name": "purpletastic-theme",
+    "displayName": "Purpletastic",
+    "description": "A purpletastic theme for VS Code",
+    "version": "1.0.0",
+    "publisher": "yourname",
+    "engines": {
+      "vscode": "^1.75.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Purpletastic",
+          "uiTheme": "vs-dark", // or "vs-light" for a light theme
+          "path": "./themes/Purpletastic-color-theme.json"
+        }
+      ]
+    }
+  }
+  
