@@ -1,20 +1,17 @@
 {
-  "name": "purpletastic",
+  "name": "purpletastic-theme",
   "displayName": "Purpletastic",
-  "description": "Courtney Robertson's color palette",
-  "version": "0.0.1",
+  "description": "A purpletastic theme for VS Code",
+  "version": "1.0.0",
+  "publisher": "Courtney Robertson",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.75.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
-        "label": "Purpletastic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Purpletastic-color-theme.json"
+        "label": "Purpletastic"
       }
     ]
   }
